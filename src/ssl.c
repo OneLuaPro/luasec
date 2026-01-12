@@ -949,7 +949,7 @@ static int meth_copyright(lua_State *L)
 {
   lua_pushstring(L, "LuaSec 1.3.2 - Copyright (C) 2006-2023 Bruno Silvestre, UFG"
 #if defined(WITH_LUASOCKET)
-                    "\nLuaSocket 3.0-RC1 - Copyright (C) 2004-2013 Diego Nehab"
+                    "\nLuaSocket - Copyright (C) 2004-2022 Diego Nehab"
 #endif
   );
   return 1;
